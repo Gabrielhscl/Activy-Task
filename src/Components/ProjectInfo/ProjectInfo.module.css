@@ -1,0 +1,127 @@
+.content {
+  background: #fff;
+  display: flex;
+  max-width: 50rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
+  color: #1d1d5b;
+}
+
+.groupCard {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  /* background: purple; */
+}
+
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: #f3f7fa;
+  background: #1da7ff;
+  border-radius: 2rem;
+  gap: 1rem;
+  font-size: 18pt;
+}
+
+.icon {
+  border: 2px solid red;
+  padding: 1rem;
+  border-radius: 99rem;
+  border-color: #f3f7fa;
+}
+
+.rate {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoRate {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.percentRate {
+  display: flex;
+  gap: 0.5rem;
+  background-color: #1d1d5b;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.ourTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.titleTeam {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 12pt;
+}
+
+.teamMembers {
+  max-width: 10rem;
+}
+
+.teamMembers span {
+  font-size: 16pt;
+  color: #8f99a7;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.members li {
+  max-width: 5rem;
+}
+
+.members img {
+  max-width: 3rem;
+  margin-right: -10px;
+}
+
+.infoHours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding: 2rem;
+  border: 2px solid #f3f7fa;
+  border-radius: 2rem;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 12pt;
+}
+
+.hours span {
+  color: #8f99a7;
+}
+
+.iconCircle {
+  font-size: 32pt;
+}

@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  max-width: 82.5rem;
+  /* background: red; */
+}
+
+.containerFluid {
+  margin: 0 auto;
+  max-width: 100%;
+}

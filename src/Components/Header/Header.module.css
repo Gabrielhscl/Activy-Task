@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header label,
+.header input {
+  display: flex;
+  align-items: center;
+  background: #f3f7fa;
+  border: none;
+  border-radius: 99rem;
+  padding: 0.5rem;
+  outline: none;
+  font-size: 12pt;
+}
+
+.header input {
+  padding: 0.25rem;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  
+}
+

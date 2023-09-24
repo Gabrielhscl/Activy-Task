@@ -8,19 +8,22 @@ import Footer from "./Components/Footer/Footer";
 
 // Pages
 import Tasks from "./Pages/Tasks/Tasks";
+import Container from "./Components/Container/Container";
 // import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      {/* Header */}
-      <Header />
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/" element={<Tasks />} />
-      </Routes>
-      {/* Footer */}
-      <Footer />
+      <Container container="containerFluid">
+        {/* Header */}
+        <Header />
+        <Routes>
+          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Tasks />} />
+        </Routes>
+        {/* Footer */}
+        <Footer />
+      </Container>
     </BrowserRouter>
   );
 }
